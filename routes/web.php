@@ -45,7 +45,7 @@ Route::prefix('admin')
     ->namespace('Admin')
     ->group(function () {
         Route::get('/', [AdminDashboardController::class, 'index'])->name('admin-dashboard');
-        // Route::resource('category', AdminCategoryController::class);
+
     });
 
 
